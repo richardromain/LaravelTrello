@@ -1,0 +1,21 @@
+{
+    "name": "richardromain/laravel-trello",
+    "description": "Laravel package to implement Trello API.",
+    "keywords": ["laravel", "trello", "api"],
+    "require": {
+        "php": ">=5.5.9",
+        "guzzlehttp/guzzle": "^6.2"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Romain Richard",
+            "email": "romain.richard.19@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Richardromain\\LaravelTrello\\": "src/"
+        }
+    }
+}
