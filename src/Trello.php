@@ -2,8 +2,6 @@
 
 namespace Richardromain\LaravelTrello;
 
-//use GuzzleHttp\Client;
-
 class Trello {
 
     /**
@@ -20,13 +18,18 @@ class Trello {
      */
     protected $token;
 
-    public function __construct()
+    /**
+     * Methods to construct the Trello object
+     *
+     * @param $key
+     * @param $token
+     * @return $this
+     */
+    public function create($key, $token)
     {
-        //
-    }
+        $this->key = $key;
+        $this->token = $token;
 
-    public function getBoards()
-    {
-        return 'foo';
+        return $this;
     }
 }
