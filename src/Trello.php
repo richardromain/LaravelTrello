@@ -19,7 +19,7 @@ class Trello {
     protected $token;
 
     /**
-     * Methods to construct the Trello object
+     * Methods to create the Trello object
      *
      * @param $key
      * @param $token
